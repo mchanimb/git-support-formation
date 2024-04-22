@@ -14,11 +14,11 @@
 
 ### Mode de fonctionnement
 
-|             centralisé            |     décentralisé                |
-| --------------------------------- | ---------------------------     |
-| client/serveur disctinct          |     client serveur non distinct |
-|        branche = dossier          |        branche = référence      | 
-|  ![svnrepo](assets/svn-repo.png)  | ![gitrepo](assets/git-repo.png) |
+| centralisé                        | décentralisé                    |
+| --------------------------------- | ------------------------------- |
+| client/serveur disctinct          | client serveur non distinct     |
+| branche = dossier                 | branche = référence             | 
+| ![svnrepo](assets/svn-repo.png)   | ![gitrepo](assets/git-repo.png) |
 
 cycle des lignes de commande git :
 
@@ -26,26 +26,35 @@ cycle des lignes de commande git :
 
 ### Workflow
 
-- Master only
-   - <font color="red"> Pas adapter au travail collaboratif </font>
-   - <font color="red"> Développement non isolé </font>
-   - <font color="red"> Déploiement continue impossible </font>
-   
+#### Master only
+
 ![master](assets/master-only.png)
 
-- Feature branch
-   - <font color="green"> Adapter au travail collaboratif </font>
-   - <font color="green"> Développement isolé </font>
-   - <font color="red"> Déploiement continu toujours impossible </font>
+| point négatif                       | point positif | 
+| ----------------------------------- | ------------- |
+| Pas adapter au travail collaboratif |               |
+| Développement non isolé             |               |
+| Déploiement continue impossible     |               | 
+
+#### Feature branch 
 
 ![feature](assets/feature-branch.png)
 
-- Gitflow
-   - <font color="green"> Adapter au travail collaborative </font>
-   - <font color="green"> Développement isolé </font>
-   - <font color="green"> Déploiement continue possible </font>
+| point négatif                            | point positif                   | 
+| ---------------------------------------- |-------------------------------- |
+|                                          | Adapter au travail collaboratif |
+|                                          | Développement isolé             |
+| Déploiement continue toujours impossible |                                 |
+
+#### Gitflow
 
 ![gitflow](assets/gitflow.png)
+
+| point négatif | point positif                     | 
+| ------------- | --------------------------------- |
+|               | Adapter au travail collaboratif   |
+|               | Développement isolé               |
+|               | Déploiement continue possible     |
 
 ### Bonnes pratiques
 
