@@ -57,8 +57,9 @@ cycle des lignes de commande git :
 
 ## Pratique
 
-- Revert et reset : https://github.com/mchanimb/git-revert-and-reset ou https://gitlab.com/mchanimb/git-revert-and-reset
-- Merge : https://github.com/mchanimb/git-merge ou https://gitlab.com/mchanimb/git-merge 
-- Rebase et merge : https://github.com/mchanimb/git-rebase-and-merge ou https://gitlab.com/mchanimb/git-rebase-and-merge 
+- Revert et reset : https://github.com/mchanimb/git-revert-and-reset 
+- Merge : https://github.com/mchanimb/git-merge 
+- Rebase et merge : https://github.com/mchanimb/git-rebase-and-merge 
 - Amend
 - Au secours, il a commit avant moi !
+- Cherry pick
