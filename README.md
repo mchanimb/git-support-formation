@@ -16,7 +16,7 @@
 
 | centralisé                        | décentralisé                    |
 | --------------------------------- | ------------------------------- |
-| client/serveur disctinct          | client serveur non distinct     |
+| client/serveur distinct           | client serveur non distinct     |
 | branche = dossier                 | branche = référence             | 
 | ![svnrepo](assets/svn-repo.png)   | ![gitrepo](assets/git-repo.png) |
 
@@ -66,9 +66,22 @@ cycle des lignes de commande git :
 
 ## Pratique
 
-- Revert et reset : https://github.com/mchanimb/git-revert-and-reset 
-- Merge : https://github.com/mchanimb/git-merge 
-- Rebase et merge : https://github.com/mchanimb/git-rebase-and-merge 
-- Amend
-- Au secours, il a commit avant moi !
-- Cherry pick
+### Revert et reset : https://github.com/mchanimb/git-revert-and-reset 
+- faire un revert du commit de la feature A 
+- faire un reset jusqu'au commit de la feature A
+
+### Merge : https://github.com/mchanimb/git-merge 
+- faire un merge de la branche feature/b dans master
+
+### Rebase et merge : https://github.com/mchanimb/git-rebase-and-merge 
+- faire un rebase de la branche feature/b sur master
+- faire un merge de la branche feature/b dans master 
+
+### Amend : https://github.com/mchanimb/git-amend
+- corriger le contenu du fichier README.md et du message de commit
+
+### Au secours, il a commit avant moi ! : https://github.com/mchanimb/git-conflit
+- en duo, faire un commit chacun et gérer le conflit chez le dernier qui a commit  
+
+### Cherry pick : https://github.com/mchanimb/git-cherry-pick
+- récupérer le commit de la feature B sur la branche de la feature C
