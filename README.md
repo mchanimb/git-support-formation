@@ -67,8 +67,8 @@ cycle des lignes de commande git :
 ## Pratique
 
 ### Revert et reset : https://github.com/mchanimb/git-revert-and-reset 
-- faire un revert du commit de la feature A 
-- faire un reset jusqu'au commit de la feature A
+- faire un revert du commit de la feature B 
+- faire un reset jusqu'au commit du main code
 
 ### Merge : https://github.com/mchanimb/git-merge 
 - faire un merge de la branche feature/b dans master
