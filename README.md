@@ -84,4 +84,4 @@ cycle des lignes de commande git :
 - en duo, faire un commit chacun et gérer le conflit chez le dernier qui a commit  
 
 ### Cherry pick : https://github.com/mchanimb/git-cherry-pick
-- récupérer le commit de la feature B sur la branche de la feature C
+- récupérer le commit de la feature A sur la branche de la feature B
